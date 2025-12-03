@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		33EBF9432EE01BDD00808500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EBF92B2EE01BDC00808500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EBF9322EE01BDC00808500;
+			remoteInfo = "xcode-cloud-testapp";
+		};
+		33EBF94D2EE01BDD00808500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EBF92B2EE01BDC00808500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EBF9322EE01BDC00808500;
+			remoteInfo = "xcode-cloud-testapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33EBF9332EE01BDC00808500 /* xcode-cloud-testapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-cloud-testapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EBF9422EE01BDD00808500 /* xcode-cloud-testappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-cloud-testappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EBF94C2EE01BDD00808500 /* xcode-cloud-testappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-cloud-testappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		33EBF9352EE01BDC00808500 /* xcode-cloud-testapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "xcode-cloud-testapp";
+			sourceTree = "<group>";
+		};
+		33EBF9452EE01BDD00808500 /* xcode-cloud-testappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "xcode-cloud-testappTests";
+			sourceTree = "<group>";
+		};
+		33EBF94F2EE01BDD00808500 /* xcode-cloud-testappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "xcode-cloud-testappUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EBF9302EE01BDC00808500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF93F2EE01BDD00808500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF9492EE01BDD00808500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EBF92A2EE01BDC00808500 = {
+			isa = PBXGroup;
+			children = (
+				33EBF9352EE01BDC00808500 /* xcode-cloud-testapp */,
+				33EBF9452EE01BDD00808500 /* xcode-cloud-testappTests */,
+				33EBF94F2EE01BDD00808500 /* xcode-cloud-testappUITests */,
+				33EBF9342EE01BDC00808500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33EBF9342EE01BDC00808500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EBF9332EE01BDC00808500 /* xcode-cloud-testapp.app */,
+				33EBF9422EE01BDD00808500 /* xcode-cloud-testappTests.xctest */,
+				33EBF94C2EE01BDD00808500 /* xcode-cloud-testappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EBF9322EE01BDC00808500 /* xcode-cloud-testapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EBF9562EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testapp" */;
+			buildPhases = (
+				33EBF92F2EE01BDC00808500 /* Sources */,
+				33EBF9302EE01BDC00808500 /* Frameworks */,
+				33EBF9312EE01BDC00808500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				33EBF9352EE01BDC00808500 /* xcode-cloud-testapp */,
+			);
+			name = "xcode-cloud-testapp";
+			packageProductDependencies = (
+			);
+			productName = "xcode-cloud-testapp";
+			productReference = 33EBF9332EE01BDC00808500 /* xcode-cloud-testapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33EBF9412EE01BDD00808500 /* xcode-cloud-testappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EBF9592EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testappTests" */;
+			buildPhases = (
+				33EBF93E2EE01BDD00808500 /* Sources */,
+				33EBF93F2EE01BDD00808500 /* Frameworks */,
+				33EBF9402EE01BDD00808500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EBF9442EE01BDD00808500 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				33EBF9452EE01BDD00808500 /* xcode-cloud-testappTests */,
+			);
+			name = "xcode-cloud-testappTests";
+			packageProductDependencies = (
+			);
+			productName = "xcode-cloud-testappTests";
+			productReference = 33EBF9422EE01BDD00808500 /* xcode-cloud-testappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33EBF94B2EE01BDD00808500 /* xcode-cloud-testappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EBF95C2EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testappUITests" */;
+			buildPhases = (
+				33EBF9482EE01BDD00808500 /* Sources */,
+				33EBF9492EE01BDD00808500 /* Frameworks */,
+				33EBF94A2EE01BDD00808500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EBF94E2EE01BDD00808500 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				33EBF94F2EE01BDD00808500 /* xcode-cloud-testappUITests */,
+			);
+			name = "xcode-cloud-testappUITests";
+			packageProductDependencies = (
+			);
+			productName = "xcode-cloud-testappUITests";
+			productReference = 33EBF94C2EE01BDD00808500 /* xcode-cloud-testappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EBF92B2EE01BDC00808500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					33EBF9322EE01BDC00808500 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					33EBF9412EE01BDD00808500 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 33EBF9322EE01BDC00808500;
+					};
+					33EBF94B2EE01BDD00808500 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 33EBF9322EE01BDC00808500;
+					};
+				};
+			};
+			buildConfigurationList = 33EBF92E2EE01BDC00808500 /* Build configuration list for PBXProject "xcode-cloud-testapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33EBF92A2EE01BDC00808500;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33EBF9342EE01BDC00808500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EBF9322EE01BDC00808500 /* xcode-cloud-testapp */,
+				33EBF9412EE01BDD00808500 /* xcode-cloud-testappTests */,
+				33EBF94B2EE01BDD00808500 /* xcode-cloud-testappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EBF9312EE01BDC00808500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF9402EE01BDD00808500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF94A2EE01BDD00808500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EBF92F2EE01BDC00808500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF93E2EE01BDD00808500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF9482EE01BDD00808500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EBF9442EE01BDD00808500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EBF9322EE01BDC00808500 /* xcode-cloud-testapp */;
+			targetProxy = 33EBF9432EE01BDD00808500 /* PBXContainerItemProxy */;
+		};
+		33EBF94E2EE01BDD00808500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EBF9322EE01BDC00808500 /* xcode-cloud-testapp */;
+			targetProxy = 33EBF94D2EE01BDD00808500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33EBF9542EE01BDD00808500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33EBF9552EE01BDD00808500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33EBF9572EE01BDD00808500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33EBF9582EE01BDD00808500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33EBF95A2EE01BDD00808500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-cloud-testapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-cloud-testapp";
+			};
+			name = Debug;
+		};
+		33EBF95B2EE01BDD00808500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-cloud-testapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-cloud-testapp";
+			};
+			name = Release;
+		};
+		33EBF95D2EE01BDD00808500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "xcode-cloud-testapp";
+			};
+			name = Debug;
+		};
+		33EBF95E2EE01BDD00808500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC53FWV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testt.xcode-cloud-testappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "xcode-cloud-testapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EBF92E2EE01BDC00808500 /* Build configuration list for PBXProject "xcode-cloud-testapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EBF9542EE01BDD00808500 /* Debug */,
+				33EBF9552EE01BDD00808500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EBF9562EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EBF9572EE01BDD00808500 /* Debug */,
+				33EBF9582EE01BDD00808500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EBF9592EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EBF95A2EE01BDD00808500 /* Debug */,
+				33EBF95B2EE01BDD00808500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EBF95C2EE01BDD00808500 /* Build configuration list for PBXNativeTarget "xcode-cloud-testappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EBF95D2EE01BDD00808500 /* Debug */,
+				33EBF95E2EE01BDD00808500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33EBF92B2EE01BDC00808500 /* Project object */;
+}
